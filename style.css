@@ -22,6 +22,27 @@ body{
     padding-right: 15px;
     padding-left: 15px;
 }
+.menu{
+    display: flex;
+}
+.menu li{
+    width: 25%;
+    border-left: 1px solid #2c71b8;
+
+}
+.menu li:last-child{
+    border-right: 1px solid #2c71b8;
+}
+.menu a{
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #2c71b8;
+    line-height: 50px;
+    text-align: center;
+
+}
 
 .row{
     display: flex;
